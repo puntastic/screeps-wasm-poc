@@ -1,4 +1,5 @@
 # screeps-wasm-poc
+WIP
 
 ## Build environment
 * Windows 10 with ubuntu 18.04 subsystem
@@ -31,8 +32,10 @@ Finally all thats left is to run the provided
 TODO: Steps to modify the server to accept larger codebases
 
 In the bin/aot-bindings-sample directory:
-* Delete 'var Module = typeof Module !== 'undefined' ? Module : {};' from mono.js (something specific js environment)
-* change 'var MONO=' to 'global.MONO=' in mono.js (got lazy, need access to this from another module)
+* Delete 'var Module = typeof Module !== 'undefined' ? Module : {};' from mono.js 
+    *  Something specific js environment
+* change 'var MONO=' to 'global.MONO=' in mono.js 
+    *  got lazy, need access to this from another module
 * Raname 'mono.js' to 'mono.js.js'.
     *  Can't load two files of the same name/different extension in screeps.
 * Rename 'mono.wasm' to 'mono.wasm.wasm'. 'same logic as mono.js.js'.
