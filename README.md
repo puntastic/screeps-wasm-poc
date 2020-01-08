@@ -2,9 +2,9 @@
 
 ## Build environment
 * Windows 10 with ubuntu 18.04 subsystem
- * [emsdk lastest-upstream ](https://emscripten.org/docs/getting_started/downloads.html) (1.39.5 as of writing)
-[mono preview 6.8](https://www.mono-project.com/download/preview/) (6.8.0.91 as of writing)
-[mono wasm sdk](https://github.com/mono/mono/blob/master/sdks/wasm/docs/getting-started/obtain-wasm-sdk.md)
+* [emsdk lastest-upstream ](https://emscripten.org/docs/getting_started/downloads.html) (1.39.5 as of writing)
+* [mono preview 6.8](https://www.mono-project.com/download/preview/) (6.8.0.91 as of writing)
+* [mono wasm sdk](https://github.com/mono/mono/blob/master/sdks/wasm/docs/getting-started/obtain-wasm-sdk.md)
     * Should end up with two files 'wasm/mono-wasm-...zip' & 'wasm-release-Linux-...zip' both of them will need to be extracted into the same directory
 	* I used the build on the 5th/jan/2020 to set up this poc
 
