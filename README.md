@@ -19,10 +19,11 @@ Will this do terrible things? Almost certianly! But do it, do it for science.
 From the emsdk directory
 
 >./emsdk activate latest-upstream 
+
 >./source ./emsdk_env.sh
 
 Set WASM_SDK to the directory to the mono wasm sdk directory eg.
->export $WASM_SDK=/mnt/c/dev/sdk/mono-wasm
+>export WASM_SDK=/mnt/c/dev/sdk/mono-wasm
 
 Finally all thats left is to run the provided
 > ./build.sh
